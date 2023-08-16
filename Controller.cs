@@ -9,7 +9,7 @@ namespace Unit12
     {
         public static void Greetings(User[] Users){
             for (int i = 0; i < Users.Length; i++){
-                Console.WriteLine($"Hello {Users[i].Name}");
+                Console.WriteLine($"Привет {Users[i].Name}");
                 if (!Users[i].IsPremium){
                     ShowAds();
                 }
